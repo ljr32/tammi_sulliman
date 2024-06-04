@@ -80,3 +80,14 @@ footer {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
+@media (max-width: 768px) {
+    .paragraph-container {
+        flex-direction: column;
+    }
+
+    .paragraph-container p {
+        flex: 1 0 auto;
+        margin-right: 0;
+    }
+}
